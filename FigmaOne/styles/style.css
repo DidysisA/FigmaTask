@@ -1,0 +1,68 @@
+div {
+  border: 2px solid black;
+}
+
+div.starter {
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+}
+div.starter div.header {
+  display: flex;
+  flex-direction: row;
+}
+div.starter div.header div.headerleft {
+  width: 50%;
+  display: flex;
+  gap: 10px;
+}
+div.starter div.header div.headerleft p {
+  font-weight: 700;
+}
+div.starter div.header div.headerright {
+  width: 50%;
+  display: flex;
+}
+div.starter div.header div.headerright a {
+  text-decoration: none;
+  color: black;
+}
+div.starter div.header div.headerright a.register {
+  color: white;
+  padding: 10px;
+  background-color: #647c64;
+  border-radius: 5px;
+}
+div.starter div.starterall {
+  display: flex;
+  flex-direction: row;
+}
+div.starter div.starterall div.starterleft {
+  width: 50%;
+}
+div.starter div.starterall div.starterright {
+  width: 50%;
+}
+
+@font-face {
+  font-family: "Avenir-Next";
+  src: url(AvenirNextLTPro-Regular.otf);
+}
+*, *::before, *::after {
+  box-sizing: border-box;
+  font-family: "Avenir-Next", sans-serif;
+}
+
+body {
+  background: rgb(247, 234, 226);
+  background: radial-gradient(circle at top right, rgb(247, 234, 226) 11%, rgb(255, 255, 255) 100%);
+}
+
+.greentxt {
+  color: #647c64;
+}
+
+.greenbutton {
+  background: rgb(100, 124, 100);
+  background: linear-gradient(90deg, rgb(100, 124, 100) 0%, rgb(100, 151, 101) 61%);
+}/*# sourceMappingURL=style.css.map */

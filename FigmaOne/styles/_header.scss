@@ -1,0 +1,45 @@
+div {
+    border: 2px solid black;
+}
+
+div.starter {
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    div.header {
+        display: flex;
+        flex-direction: row;
+        div.headerleft {
+            width: 50%;
+            display: flex;
+            gap: 10px;
+            p {
+                font-weight: 700;
+            }
+        }
+        div.headerright {
+            width: 50%;
+            display: flex;
+            a {
+                text-decoration: none;
+                color: black;
+                &.register{
+                    color: white;
+                    padding: 10px;
+                    background-color: $greencolor;
+                    border-radius: 5px;
+                }
+            }
+        }
+    }
+    div.starterall {
+        display: flex;
+        flex-direction: row;
+        div.starterleft {
+            width: 50%;
+        }
+        div.starterright {
+            width: 50%;
+        }
+    }
+}
